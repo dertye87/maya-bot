@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.discordapp.com/avatars/1108128073716617216/8ac90f220b454583c10f4a93e2887df3.png?size=512" width="250px"> #>Заменить на свою ссылку на пнг<#
+  <img src="https://cdn.discordapp.com/avatars/1108128073716617216/8ac90f220b454583c10f4a93e2887df3.png?size=512" width="250px">
   <h1 align="center">
     <p>⚡️ {botname} ⚡️</p>
   </h1>
