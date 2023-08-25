@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://media.discordapp.net/attachments/1129555529342136462/1144759804099821588/image.png" width="250px">
   <h1 align="center">
-    <p>⚡️ {botname} ⚡️</p>
+    <p>⚡️ **Maya**⚡️</p>
   </h1>
 </p>
 
