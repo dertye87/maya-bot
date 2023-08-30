@@ -1,80 +1,80 @@
-# Privacy Policy
+# Политика конфиденциальности
 
-Message Manager provides a service through the Website (the "Site"), and the Discord Bot (the "Bot"), collectivity (the 'Service'). These services are provided to you by the Message Manager Dev Team ('we' or 'us') for users ('you').
+Менеджер сообщений предоставляет услугу через Веб-сайт ("Сайт") и бота Discord ("Бот") collectivity ("Сервис"). Эти услуги предоставляются вам командой разработчиков Message Manager ("мы" или "нас") для пользователей ("вы").
 
-## Data We Collect
+## Данные, которые мы собираем
 
-### Data you provide
+### Данные, которые вы предоставляете
 
-The Service has settings that administrators of servers can set up on a per server basis. Setting these settings will store the following data when provided.
+Сервис имеет настройки, которые администраторы серверов могут настраивать для каждого сервера. При установке этих настроек будут сохранены следующие данные, когда они будут предоставлены.
 
-- Guild ids
-- Role ids
-- Channel ids
-- Webhook authorization details
+- Идентификаторы гильдий
+- Идентификаторы ролей
+- Идентификаторы каналов
+- Данные авторизации на Webhook
 
-### Data automatically collected
+### автоматически собираемые данные
 
-When you connect to the site traffic is provided through a proxy from cloudflare for security and performance reasons. Cloudflare collects anonymous data which may include but is not limited IP addresses, country, device and browser type, http request type and time. Cloudflare's privacy policy can be found [here](https://www.cloudflare.com/privacy)
+При подключении к сайту трафик предоставляется через прокси от cloudflare по соображениям безопасности и производительности. Cloudflare собирает анонимные данные, которые могут включать, помимо прочего, IP-адреса, страну, тип устройства и браузера, тип http-запроса и время. С политикой конфиденциальности Cloudflare можно ознакомиться [здесь](https://www.cloudflare.com/privacy)
 
-We also use Cloudflare's privacy aware analytics service, which records: Referrer, Host, Country, Path, Browser, Operating System and Device Type. All data recorded is anonymous.
+Мы также используем сервис аналитики конфиденциальности Cloudflare, который регистрирует: реферера, хост, страну, путь, браузер, операционную систему и тип устройства. Все записанные данные анонимны.
 
-We use a LFU (least frequently used) caching method for caching guild settings. Part of this means that the count of times that the data per guild has been access is stored in ram. Because the prefix is checked each time a message event is received to check if the message is a command (most bots work this way) this means that the count will roughly represent the amount of messages in that guild since the bot was loaded. This data will not be used for any other purpose than to maintain the cache.
+Мы используем метод кэширования LFU (наименее часто используемый) для кэширования настроек гильдии. Отчасти это означает, что количество обращений к данным для каждой гильдии сохраняется в оперативной памяти. Поскольку префикс проверяется каждый раз при получении события message, чтобы проверить, является ли сообщение командой (большинство ботов работают таким образом), это означает, что количество будет примерно соответствовать количеству сообщений в этой гильдии с момента загрузки бота. Эти данные не будут использоваться ни для каких других целей, кроме как для поддержания кэша.
 
-Command usage is logged for analytics purposes, the timestamp, server id, command name(s), and result (if it succeeded / errors thrown, etc). This data is only available to the bot team.  
+Использование команды регистрируется для целей аналитики с указанием метки времени, идентификатора сервера, имени (ов) команды и результата (если это удалось / возникли ошибки и т.д.). Эти данные доступны только команде бота. 
 
-#### Cookies
+#### Файлы cookie
 
-Cookies are only currently used by Cloudflare to detect bad actors and block them, and to provide their other services to us. These cookies do not allow cross site tracking and in most cases log data retrieved using these cookies is only stored for 24 hours by Cloudflare on their servers.
+В настоящее время файлы cookie используются Cloudflare только для обнаружения злоумышленников и их блокировки, а также для предоставления нам других своих услуг. Эти файлы cookie не позволяют отслеживать работу разных сайтов, и в большинстве случаев данные журнала, полученные с помощью этих файлов cookie, хранятся Cloudflare на своих серверах только в течение 24 часов.
 
-## Where do we store your data
+## Где мы храним ваши данные
 
-Data is currently stored in the US and both services are hosted in the US.
+В настоящее время данные хранятся в США, и обе службы размещены в США.
 
-## Why do we need that data
+## Зачем нам нужны эти данные
 
-### To provide functionality
+### Для обеспечения функциональности
 
-Data that is set by admins (guild-ids, role-ids, channel-ids) are required for certain features to work.  
-Role ids are needed to confirm that a user has a set management role and thus permissions.
-Guild ids are needed to link server specific settings to their relative servers.
-Channel ids are needed to enable the vc-channel stats function to find the right channel.
-Webhook ids and tokens are needed for logging to function
+Данные, которые устанавливаются администраторами (идентификаторы гильдий, ролей, каналов), необходимы для работы определенных функций. 
+Идентификаторы ролей необходимы для подтверждения того, что пользователь имеет установленную роль управления и, следовательно, разрешения.
+Идентификаторы гильдий необходимы для привязки настроек конкретного сервера к их соответствующим серверам.
+Идентификаторы каналов необходимы для включения функции статистики канала vc для поиска нужного канала.
+Идентификаторы и токены Webhook необходимы для входа в систему, чтобы функционировать
 
-### To protect the Service
+### Для защиты Сервиса
 
-Data collected by Cloudflare is collected to protect the service from DDoS attacks among others attacks.
+Данные, собираемые Cloudflare, собираются для защиты сервиса, в частности, от DDoS-атак.
 
-Command usage data is also collected to help detect / identify users who are abusing the service.  
+Данные об использовании команд также собираются, чтобы помочь обнаружить / идентифицировать пользователей, злоупотребляющих сервисом. 
 
-### To help us improve the Service
+### Чтобы помочь нам улучшить сервис
 
-Anonymous data is collected by Cloudflare that contains approximate location, device type, http request info, browser type and other device data. None of this data is personally identifiable. We use this data to give us insight on how the Service is used, and this helps us improve the Service.
+Cloudflare собирает анонимные данные, которые содержат приблизительное местоположение, тип устройства, информацию о http-запросе, тип браузера и другие данные устройства. Ни одна из этих данных не позволяет установить личность. Мы используем эти данные, чтобы получить представление о том, как используется Сервис, и это помогает нам улучшить его.
 
-Data may also be used in development and testing.
+Данные также могут быть использованы при разработке и тестировании.
 
-Command usage data is collected to gain insight on command usage to help focus development and identify improvements, to improve the service.
+Данные об использовании команд собираются для получения информации об использовании команд, чтобы помочь сфокусировать разработку и определить улучшения для улучшения сервиса.
 
-### To optimise the service
+### Для оптимизации сервиса
 
-Cache access frequency is required to ensure that the data in cache is the most likely to be needed, improving the speed of the bot.
+Частота доступа к кэшу требуется для того, чтобы гарантировать, что данные в кэше, скорее всего, понадобятся, что повышает скорость работы бота.
 
-## Who is your data shared with
+## Кому передаются ваши данные
 
-Other than Discord, users of the Service and developers of the Service your data is not currently shared with anyone else. However Cloudflare does collect data on our behalf regarding usage statics and preventing attacks on the service. We do not send any data that we don't collect through Cloudflare to Cloudflare.
+Кроме Discord, пользователи Сервиса и разработчики Сервиса в настоящее время не делятся вашими данными ни с кем другим. Однако Cloudflare собирает данные от нашего имени относительно статистики использования и предотвращения атак на сервис. Мы не отправляем в Cloudflare никаких данных, которые мы не собираем через Cloudflare.
 
-## How to contact us
+## Как с нами связаться
 
-If you have a concern you can contact us a few ways.  
-You can:
+Если у вас есть какие-либо вопросы, вы можете связаться с нами несколькими способами. 
+Вы можете:
 
-- Join the discord [server](https://discord.gg/xFZu29t) and contact me at `Another Cat#4247`
-- Emailing [anothercat1259@gmail.com](mailto:anothercat1259@gmail.com)
+- Присоединяйтесь к discord [сервер](https://discord.gg/xFZu29t) и свяжитесь со мной по `Другому коту#4247`
+- Отправка электронной почты [anothercat1259@gmail.com](mailto:anothercat1259@gmail.com)
 
-## How to get your data removed
+## Как удалить ваши данные
 
-If you would like us to remove your data please reach out to us and ask.
+Если вы хотите, чтобы мы удалили ваши данные, пожалуйста, свяжитесь с нами и попросите.
 
-## Changes to the policy
+## Изменения в политике
 
-Note: This Privacy Policy was last updated on 28/09/2021 and came into effect on 1/10/2021. The privacy policy can be updated at anytime without any notice, however we will make an effort to inform you about the change. The support server is the best place to be to stay up to date.
+Примечание: Эта Политика конфиденциальности в последний раз обновлялась 28/09/2021 и вступила в силу 1/10/2021. Политика конфиденциальности может быть обновлена в любое время без какого-либо уведомления, однако мы приложим все усилия, чтобы информировать вас об изменениях. Сервер поддержки - лучшее место, где можно быть в курсе событий.
