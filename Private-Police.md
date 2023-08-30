@@ -1,6 +1,6 @@
 # Политика конфиденциальности
 
-Приложение [Maya](https://discloudbot.com/) работает на хостинге [discloud](https://discloudbot.com/) и 
+Приложение [Maya](https://discord.com/application-directory/1108128073716617216) работает на хостинге [discloud](https://discloudbot.com/) и 
 
 ## Данные, которые мы собираем это те данные которое предоставляет сервис [discord.com](https://discord.com/) и вы:
 
